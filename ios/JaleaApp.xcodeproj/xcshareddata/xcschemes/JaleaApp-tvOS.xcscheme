@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "Jalea-tvOS.app"
-               BlueprintName = "Jalea-tvOS"
-               ReferencedContainer = "container:Jalea.xcodeproj">
+               BuildableName = "JaleaApp-tvOS.app"
+               BlueprintName = "JaleaApp-tvOS"
+               ReferencedContainer = "container:JaleaApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "Jalea-tvOSTests.xctest"
-               BlueprintName = "Jalea-tvOSTests"
-               ReferencedContainer = "container:Jalea.xcodeproj">
+               BuildableName = "JaleaApp-tvOSTests.xctest"
+               BlueprintName = "JaleaApp-tvOSTests"
+               ReferencedContainer = "container:JaleaApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "Jalea-tvOSTests.xctest"
-               BlueprintName = "Jalea-tvOSTests"
-               ReferencedContainer = "container:Jalea.xcodeproj">
+               BuildableName = "JaleaApp-tvOSTests.xctest"
+               BlueprintName = "JaleaApp-tvOSTests"
+               ReferencedContainer = "container:JaleaApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "Jalea-tvOS.app"
-            BlueprintName = "Jalea-tvOS"
-            ReferencedContainer = "container:Jalea.xcodeproj">
+            BuildableName = "JaleaApp-tvOS.app"
+            BlueprintName = "JaleaApp-tvOS"
+            ReferencedContainer = "container:JaleaApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "Jalea-tvOS.app"
-            BlueprintName = "Jalea-tvOS"
-            ReferencedContainer = "container:Jalea.xcodeproj">
+            BuildableName = "JaleaApp-tvOS.app"
+            BlueprintName = "JaleaApp-tvOS"
+            ReferencedContainer = "container:JaleaApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -113,9 +113,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "Jalea-tvOS.app"
-            BlueprintName = "Jalea-tvOS"
-            ReferencedContainer = "container:Jalea.xcodeproj">
+            BuildableName = "JaleaApp-tvOS.app"
+            BlueprintName = "JaleaApp-tvOS"
+            ReferencedContainer = "container:JaleaApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

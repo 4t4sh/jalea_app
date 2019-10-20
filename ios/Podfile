@@ -1,8 +1,8 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'Jalea' do
-  # Pods for Jalea
+target 'JaleaApp' do
+  # Pods for JaleaApp
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -34,7 +34,7 @@ target 'Jalea' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  target 'JaleaTests' do
+  target 'JaleaAppTests' do
     inherit! :search_paths
     # Pods for testing
   end
@@ -42,10 +42,10 @@ target 'Jalea' do
   use_native_modules!
 end
 
-target 'Jalea-tvOS' do
-  # Pods for Jalea-tvOS
+target 'JaleaApp-tvOS' do
+  # Pods for JaleaApp-tvOS
 
-  target 'Jalea-tvOSTests' do
+  target 'JaleaApp-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

@@ -1,5 +1,4 @@
 import styled from 'styled-components/native';
-import {Icon} from 'react-native-eva-icons';
 
 export const Box = styled.View`
   display: flex;

@@ -1,7 +1,7 @@
 import styled from 'styled-components/native';
 
 // React Native
-import {TextProps} from 'react-native';
+import { TextProps } from 'react-native';
 
 // Types
 type HeadingType = {
@@ -54,10 +54,10 @@ function calculateMarginBottom(type: string): string {
 }
 
 export default styled.Text<TextProps & HeadingType>`
-  margin-top: ${({type = 'normal'}) => calculateMarginTop(type)};
-  margin-bottom: ${({type = 'normal'}) => calculateMarginBottom(type)};
-  font-size: ${({type = 'normal'}) => calculateTextSize(type)};
-  font-weight: ${({bold = false}) => (bold ? 'bold' : 'normal')};
-  text-align: ${({center = false}) => (center ? 'center' : 'auto')};
-  color: ${({color}) => (color ? color : 'black')};
+  margin-top: ${({ type = 'normal' }) => calculateMarginTop(type)};
+  margin-bottom: ${({ type = 'normal' }) => calculateMarginBottom(type)};
+  font-size: ${({ type = 'normal' }) => calculateTextSize(type)};
+  font-weight: ${({ bold = false }) => (bold ? 'bold' : 'normal')};
+  text-align: ${({ center = false }) => (center ? 'center' : 'auto')};
+  color: ${({ color }) => (color ? color : 'black')};
 `;

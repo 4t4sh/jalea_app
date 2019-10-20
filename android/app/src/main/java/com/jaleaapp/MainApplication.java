@@ -1,4 +1,4 @@
-package com.jalea;
+package com.jaleaapp;
 
 import android.app.Application;
 import android.content.Context;
