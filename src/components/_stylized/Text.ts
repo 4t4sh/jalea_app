@@ -53,7 +53,7 @@ function calculateMarginBottom(type: string): string {
   }
 }
 
-export default styled.Text<TextProps & HeadingType>`
+const Text = styled.Text<TextProps & HeadingType>`
   margin-top: ${({ type = 'normal' }) => calculateMarginTop(type)};
   margin-bottom: ${({ type = 'normal' }) => calculateMarginBottom(type)};
   font-size: ${({ type = 'normal' }) => calculateTextSize(type)};
@@ -61,3 +61,5 @@ export default styled.Text<TextProps & HeadingType>`
   text-align: ${({ center = false }) => (center ? 'center' : 'auto')};
   color: ${({ color }) => (color ? color : 'black')};
 `;
+
+export default Text;

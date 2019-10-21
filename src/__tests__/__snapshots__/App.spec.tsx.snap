@@ -3,14 +3,19 @@
 exports[`Snapshot:  Should match the snapshot:  1`] = `
 <RCTSafeAreaView
   emulateUnlessSupported={true}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
 >
   <View
     style={
       Array [
         Object {
           "alignItems": "center",
-          "height": "100%",
-          "justifyContent": "center",
+          "flexGrow": 1,
+          "justifyContent": "space-between",
           "paddingHorizontal": 10,
           "width": "100%",
         },

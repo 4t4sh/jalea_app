@@ -3,7 +3,7 @@
 exports[`Snapshot:  Should match the snapshot:  1`] = `
 <View
   accessible={true}
-  focusable={true}
+  focusable={false}
   isTVSelectable={true}
   onClick={[Function]}
   onResponderGrant={[Function]}
@@ -60,7 +60,9 @@ exports[`Snapshot:  Should match the snapshot:  1`] = `
         ]
       }
       type="button"
-    />
+    >
+      Test
+    </Text>
   </View>
 </View>
 `;

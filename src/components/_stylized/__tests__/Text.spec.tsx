@@ -1,6 +1,6 @@
 import 'react-native';
 import React from 'react';
-import Button from '..';
+import Text from '../Text';
 
 import renderer from 'react-test-renderer';
 import { string } from 'prop-types';
@@ -12,7 +12,7 @@ const createTestProps = (props: any) => ({
 
 describe('Snapshot: ', () => {
   const props = createTestProps({});
-  const component = renderer.create(<Button {...props} text="Test" />).toJSON();
+  const component = renderer.create(<Text {...props} />).toJSON();
 
   it('Should match the snapshot: ', () => {
     expect(component).toMatchSnapshot();

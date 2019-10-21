@@ -17,20 +17,14 @@ type ButtonType = {
 const Button: FC<ButtonType> = ({
   text,
   onClick,
-}: ButtonType): ReactElement => {
-  const onIconPress = () => {
-    console.log('Press');
-  };
-
-  return (
-    <TouchableOpacity onPress={onClick}>
-      <Box>
-        <Text color="white" type="button">
-          {text}
-        </Text>
-      </Box>
-    </TouchableOpacity>
-  );
-};
+}: ButtonType): ReactElement => (
+  <TouchableOpacity onPress={onClick}>
+    <Box>
+      <Text color="white" type="button">
+        {text}
+      </Text>
+    </Box>
+  </TouchableOpacity>
+);
 
 export default Button;
