@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot:  Should match the snapshot:  1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "height": "100%",
+          "justifyContent": "center",
+          "paddingHorizontal": 10,
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <Text
+      bold={true}
+      color="#302D63"
+      style={
+        Array [
+          Object {
+            "color": "#302D63",
+            "fontSize": 35,
+            "fontWeight": "bold",
+            "marginBottom": 30,
+            "marginTop": 30,
+            "textAlign": "auto",
+          },
+        ]
+      }
+      type="title"
+    >
+      #BeerJS No. 35 🎉
+    </Text>
+    <Text
+      center={true}
+      color="#A1195B"
+      style={
+        Array [
+          Object {
+            "color": "#A1195B",
+            "fontSize": 25,
+            "fontWeight": "normal",
+            "marginBottom": 20,
+            "marginTop": 20,
+            "textAlign": "center",
+          },
+        ]
+      }
+      type="subtitle"
+    >
+      Tests in React Native 
+ without tears 🦄 😂
+    </Text>
+    <Image
+      resizeMode="contain"
+      source={
+        Object {
+          "testUri": "../../../src/assets/beerjs_logo.png",
+        }
+      }
+      style={
+        Object {
+          "height": "40%",
+          "width": "40%",
+        }
+      }
+    />
+    <View
+      accessible={true}
+      focusable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#a1195b",
+              "borderRadius": 10,
+              "display": "flex",
+              "flexDirection": "row",
+              "height": "auto",
+              "justifyContent": "space-evenly",
+              "paddingBottom": 10,
+              "paddingLeft": 10,
+              "paddingRight": 10,
+              "paddingTop": 10,
+              "shadowColor": "#a1195b",
+              "shadowOffset": Object {
+                "height": 0,
+                "width": 0,
+              },
+              "shadowOpacity": 1,
+              "shadowRadius": 3,
+              "width": "80%",
+            },
+          ]
+        }
+      >
+        <Text
+          color="white"
+          style={
+            Array [
+              Object {
+                "color": "white",
+                "fontSize": 20,
+                "fontWeight": "normal",
+                "marginBottom": 10,
+                "marginTop": 10,
+                "textAlign": "auto",
+              },
+            ]
+          }
+          type="button"
+        >
+          ¿Quién está acá? 👀
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;

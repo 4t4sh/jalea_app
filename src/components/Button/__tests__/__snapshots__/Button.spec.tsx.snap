@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot:  Should match the snapshot:  1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  isTVSelectable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#a1195b",
+          "borderRadius": 10,
+          "display": "flex",
+          "flexDirection": "row",
+          "height": "auto",
+          "justifyContent": "space-evenly",
+          "paddingBottom": 10,
+          "paddingLeft": 10,
+          "paddingRight": 10,
+          "paddingTop": 10,
+          "shadowColor": "#a1195b",
+          "shadowOffset": Object {
+            "height": 0,
+            "width": 0,
+          },
+          "shadowOpacity": 1,
+          "shadowRadius": 3,
+          "width": "80%",
+        },
+      ]
+    }
+  >
+    <Text
+      color="white"
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 20,
+            "fontWeight": "normal",
+            "marginBottom": 10,
+            "marginTop": 10,
+            "textAlign": "auto",
+          },
+        ]
+      }
+      type="button"
+    />
+  </View>
+</View>
+`;

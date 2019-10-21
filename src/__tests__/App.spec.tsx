@@ -4,6 +4,10 @@ import App from '../App';
 
 import renderer from 'react-test-renderer';
 
-it('renders correctly', () => {
-  renderer.create(<App />);
+describe('Snapshot: ', () => {
+  const component = renderer.create(<App />).toJSON();
+
+  it('Should match the snapshot: ', () => {
+    expect(component).toMatchSnapshot();
+  });
 });

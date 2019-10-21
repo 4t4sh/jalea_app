@@ -1,7 +1,7 @@
 import React, { FC, ReactElement } from 'react';
 
 // React Native
-import { TouchableOpacity } from 'react-native';
+import { TouchableOpacity, GestureResponderEvent } from 'react-native';
 
 // Components
 import Text from '../_stylized/Text';
@@ -11,15 +11,19 @@ import { Box } from './styles';
 
 type ButtonType = {
   text: string;
+  onClick: (e: GestureResponderEvent) => void;
 };
 
-const Button: FC<ButtonType> = ({ text }: ButtonType): ReactElement => {
+const Button: FC<ButtonType> = ({
+  text,
+  onClick,
+}: ButtonType): ReactElement => {
   const onIconPress = () => {
     console.log('Press');
   };
 
   return (
-    <TouchableOpacity onPress={onIconPress}>
+    <TouchableOpacity onPress={onClick}>
       <Box>
         <Text color="white" type="button">
           {text}
